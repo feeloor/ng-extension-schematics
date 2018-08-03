@@ -7,6 +7,12 @@
       "factory": "./component",
       "schema": "./component/schema.json",
       "aliases": ["c"]
+    },
+    "feature-module": {
+      "description": "Angular Feature Module",
+      "factory": "./feature",
+      "schema": "./feature/schema.json",
+      "aliases": ["fm"]
     }
   }
 }
