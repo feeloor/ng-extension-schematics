@@ -25,6 +25,12 @@
       "factory": "./shared",
       "schema": "./shared/schema.json",
       "aliases": ["sm"]
+    },
+    "service": {
+      "description": "Angular Service",
+      "aliases": ["s"],
+      "factory": "./service",
+      "schema": "./service/schema.json"
     }
   }
 }
