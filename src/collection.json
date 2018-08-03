@@ -19,6 +19,12 @@
       "factory": "./core",
       "schema": "./core/schema.json",
       "aliases": ["cm"]
+    },
+    "shared-module": {
+      "description": "Angular Shared Module",
+      "factory": "./shared",
+      "schema": "./shared/schema.json",
+      "aliases": ["sm"]
     }
   }
 }
