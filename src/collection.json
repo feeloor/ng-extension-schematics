@@ -2,6 +2,11 @@
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "extends": "@schematics/angular",
   "schematics": {
-
+    "component": {
+      "description": "Angular Component with Barrel",
+      "factory": "./component",
+      "schema": "./component/schema.json",
+      "aliases": ["c"]
+    }
   }
 }
