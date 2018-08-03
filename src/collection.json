@@ -31,6 +31,12 @@
       "aliases": ["s"],
       "factory": "./service",
       "schema": "./service/schema.json"
+    },
+    "path-alias": {
+      "description": "Adds a new alias to paths in tsconfig.json.",
+      "aliases": ["pa"],
+      "factory": "./path-alias",
+      "schema": "./path-alias/schema.json"
     }
   }
 }
