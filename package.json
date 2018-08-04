@@ -1,15 +1,20 @@
 {
-  "name": "ng-extension-schematics",
-  "version": "1.0.0",
+  "name": "@feeloor/ng-extension-schematics",
+  "version": "0.0.0",
   "description": "Angular extension schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "npm run build && jasmine **/*_spec.js"
+    "test": "npm run build && jasmine **/*_spec.js",
+    "release": "np"
   },
+  "private": false,
   "keywords": [
-    "schematics"
+    "schematics",
+    "angular",
+    "angular-schematics",
+    "@feeloor"
   ],
-  "author": "Felix Khoi",
+  "author": "Felix Khoi <felix@khoi.se>",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
@@ -20,5 +25,16 @@
     "@types/node": "^8.0.31",
     "jasmine": "^2.8.0",
     "typescript": "^2.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feeloor/ng-extension-schematics.git"
+  },
+  "bugs": "https://github.com/feeloor/ng-extension-schematics/issues",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "np": "^3.0.4"
   }
 }
