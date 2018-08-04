@@ -1,5 +1,7 @@
 # @feeloor/ng-extension-schematics
 
+[![npm version](https://badge.fury.io/js/%40feeloor%2Fng-extension-schematics.svg)](https://badge.fury.io/js/%40feeloor%2Fng-extension-schematics)
+
 An extension of default angular schematics.
 
 
