@@ -38,7 +38,7 @@ export default function(options: Schema) {
             }
 
             // Add new alias
-            tsConfigData.compilerOptions.paths[options.name] = [ options.path ];
+            tsConfigData.compilerOptions.paths[`${options.name}/*`] = [ `${options.path}/*` ];
 
             // Convert data to json and write to file
             tree.overwrite(tsConfigFile, JSON.stringify(tsConfigData, null, '\t'));
